@@ -4,9 +4,12 @@
 // @description	  Let people click on images to view the full size
 // @include       http*://*.stackexchange.com/*
 // @include       http*://*.superuser.com/*
+// @include       http*://superuser.com/*
 // @include       http*://*.serverfault.com/*
+// @include       http*://serverfault.com/*
 // @include       http*://*.stackoverflow.com/*
-// @version       1.0.0
+// @include       http*://stackoverflow.com/*
+// @version       1.0.1
 // @grant         none
 // ==/UserScript==
 
