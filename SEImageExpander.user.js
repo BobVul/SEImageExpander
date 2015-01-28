@@ -2,14 +2,15 @@
 // @name          SEImageExpander
 // @namespace     http://vulpin.com/
 // @description	  Let people click on images to view the full size
-// @include       http*://*.stackexchange.com/*
-// @include       http*://*.superuser.com/*
-// @include       http*://superuser.com/*
-// @include       http*://*.serverfault.com/*
-// @include       http*://serverfault.com/*
-// @include       http*://*.stackoverflow.com/*
-// @include       http*://stackoverflow.com/*
-// @version       1.0.1
+// @match         *://*.askubuntu.com/*
+// @match         *://*.mathoverflow.net/*
+// @match         *://*.onstartups.com/*
+// @match         *://*.serverfault.com/*
+// @match         *://*.stackapps.com/*
+// @match         *://*.stackexchange.com/*
+// @match         *://*.stackoverflow.com/*
+// @match         *://*.superuser.com/*
+// @version       1.0.2
 // @grant         none
 // ==/UserScript==
 
