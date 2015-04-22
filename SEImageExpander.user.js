@@ -10,7 +10,7 @@
 // @match         *://*.stackexchange.com/*
 // @match         *://*.stackoverflow.com/*
 // @match         *://*.superuser.com/*
-// @version       1.0.2
+// @version       1.0.3
 // @grant         none
 // ==/UserScript==
 
@@ -36,6 +36,10 @@ var Program = {
     },
     
     processImgDescendants: function(node) {
+        if (!node) {
+            return;
+        }
+        
         var imgNodes = node.querySelectorAll('.post-text img');
         
         Array.prototype.forEach.call(imgNodes, function(imgNode) {
