@@ -10,7 +10,7 @@
 // @match         *://*.stackexchange.com/*
 // @match         *://*.stackoverflow.com/*
 // @match         *://*.superuser.com/*
-// @version       1.0.3
+// @version       1.0.4
 // @grant         none
 // ==/UserScript==
 
@@ -36,7 +36,7 @@ var Program = {
     },
     
     processImgDescendants: function(node) {
-        if (!node) {
+        if (!node || !node.querySelectorAll) {
             return;
         }
         
